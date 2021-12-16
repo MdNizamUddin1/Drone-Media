@@ -47,8 +47,6 @@ a{
 .header-section{
     width: 100%;
     background: var(--color--3);
-    position: fixed;
-    z-index: 9999;
 }
 .navbar{
     z-index: 9999;
@@ -268,9 +266,16 @@ a{
         font-size: 13px;
     }
     .footer-section{
-        padding-top: 400px;
+        padding-top: 300px;
     }
     .footer-section p{
         font-size: 12px;
+    }
+    .footer-section i{
+        font-size: 13px;
+        padding: 12px;
+    }
+    .footer-col{
+        display: none;
     }
 }
