@@ -47,8 +47,6 @@ a{
 .header-section{
     width: 100%;
     background: var(--color--3);
-    position: fixed;
-    z-index: 9999;
 }
 .navbar{
     z-index: 9999;
